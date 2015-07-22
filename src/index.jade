@@ -4,10 +4,31 @@ html(lang='en')
     title title here
     meta(charset="UTF-8")
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(href='/css/all.css', rel='stylesheet')
     link(href='/css/vendor.css', rel='stylesheet')
+    link(href='/css/all.css', rel='stylesheet')
+
+
   body
-    .center
-      h1 Frontend Bootstrap!
+    nav.navbar-center.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='#')
+            img(src='assets/navbar_logo.svg', alt='alt text', style='border:none;')
+        div
+          ul.nav.navbar-nav
+            li
+              a.text.navbar-text(href='#') HOTEL
+            li
+              a.text.navbar-text(href='#')  AMENITIES
+            li
+              a.text.navbar-text(href='#')  APARTMENTS
+            li
+              a.text.navbar-text(href='#')  LOCATION
+            li
+              a.text.navbar-text(href='#') CONTACT
+    //.center
+      .text
+        | Frontend Bootstrap!
+      h2 Soleado apart hotel
     // inject:js
     // endinject
