@@ -60,3 +60,29 @@ a:focus {
 .carousel-indicators > li {
   background-color: $white;
 }
+
+.gallery-img > .carousel-inner {
+  height: 920px;
+}
+
+.gallery-img > .carousel-indicators {
+  bottom: 145px;
+}
+
+.gallery-img > .carousel-inner > .item > img {
+  height: 920px;
+  width: 100%;
+}
+
+.carousel-caption {
+  height: 107px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: $whiteSmoke;
+  text-shadow: none;
+  padding: 0 10%;
+  display: table;
+}
