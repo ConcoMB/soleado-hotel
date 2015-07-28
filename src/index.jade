@@ -339,13 +339,13 @@ html(lang='en')
           table.contact-table
             tr
               td.contact-cell
-                input(type='text', name='name', placeholder='NAME', class='text contact-field')
+                input(id= 'name', type='text', name='name', placeholder='NAME', class='text contact-field')
               td.contact-cell
-                input(type='text', name='email', placeholder='EMAIL', class='text contact-field')
+                input(id= 'email', type='text', name='email', placeholder='EMAIL', class='text contact-field')
             tr
               td.contact-cell(colspan='2')
                 textarea(name='message', placeholder='MESSAGE' class='text contact-field contact-area')
-          a(href='#' class=' text prominent-text custom-button send-button')
+          a(href='#' id='send' class=' text prominent-text custom-button send-button')
             | send
     // inject:js
     // endinject

@@ -174,3 +174,34 @@ var styles = [
         ]
     }
 ];
+
+$('#send').click(function() {
+  'use strict';
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+  var name = document.getElementById('name').value;
+  $.ajax({
+    type: 'POST',
+    url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+    data: {
+      'key': '_quGugxHFH3bSlJ0N44tUA',
+      'message': {
+        'from_email': email,
+        'from_name': name,
+        'to': [
+          {
+            'email': 'osvaldo.fernandez@wolox.com.ar',
+            'name': 'OGF',
+            'type': 'to'
+          }
+        ],
+      'autotext': 'true',
+      'subject': 'Soleado Apart Hotel Contact',
+      'html': message
+    }
+  }
+ }).done(function(response) {
+    console.log(response); // if you're into that sorta thing
+    alert('YOUR INFO HAS BEEN SENT.');
+  });
+});
