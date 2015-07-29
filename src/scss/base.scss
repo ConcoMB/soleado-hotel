@@ -285,6 +285,7 @@
   color: $aqua;
   padding: 11px 0;
   width: 100%;
+  cursor: pointer;
 }
 
 .send-button:hover,
@@ -357,6 +358,11 @@
 
 .contact-field:focus {
   outline: none;
+}
+
+.contact-caption {
+  margin: 10px 0;
+  color: $orange;
 }
 
 .footer-desc {
