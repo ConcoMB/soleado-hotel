@@ -6,11 +6,6 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='/css/vendor.css', rel='stylesheet')
     link(href='/css/all.css', rel='stylesheet')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-    script(src='/js/vendor/bootstrap.js')
-    script(src='https://maps.googleapis.com/maps/api/js')
-
-
   body
     nav.navbar-center.navbar.navbar-default
       .container-fluid
@@ -20,21 +15,21 @@ html(lang='en')
         div
           ul.nav.navbar-nav
             li
-              a.text.navbar-text(href='#')
+              a.text.navbar-text(href='#home')
                 | Hotel
             li
-              a.text.navbar-text(href='#')
+              a.text.navbar-text(href='#amenities')
                 | Amenities
             li
-              a.text.navbar-text(href='#')
+              a.text.navbar-text(href='#apartments')
                 | Apartments
             li
-              a.text.navbar-text(href='#')
+              a.text.navbar-text(href='#location')
                 | Location
             li
-              a.text.navbar-text(href='#')
+              a.text.navbar-text(href='contact')
                 | Contact
-    .home
+    #home.home
       a(href='#' class= 'text prominent-text centered-text book-now-button')
         | book now
       a(href='#' class= 'text prominent-text centered-text language')
@@ -60,7 +55,7 @@ html(lang='en')
           | and minutes away from fabulous dining, shopping and nightlife, Soleado Apart Hotel offers
           | the convenience of having your own private apartment while enjoying family-like
           | hospitality eager to make your vacation memorable
-    .amenities
+    #amenities.amenities
       #amenities-carousel.amenities-back-img.carousel.slide(data-ride='carousel')
         ol.carousel-indicators
           li.active(data-target='#amenities-carousel', data-slide-to='0')
@@ -112,7 +107,7 @@ html(lang='en')
         .separator-text
         .text.subbody-text.amenities-desc-gap.centered-text
           | Free wi-fi in the entire property
-    .apartments
+    #apartments.apartments
       .col-xs-12.col-sm-12.col-md-6.col-no-padding
         #apartments-carousel.apartments-img.carousel.slide(data-ride='carousel')
           ol.carousel-indicators
@@ -140,7 +135,7 @@ html(lang='en')
             | our housekeepers.
           a(href='#' class=' text prominent-text custom-button apartments-button')
             | view gallery
-    .location
+    #location.location
       .text.title-text.centered-text
         | where we are located
       .separator-text
@@ -345,5 +340,8 @@ html(lang='en')
           #send.text.prominent-text.custom-button.send-button
             | send
           #contact-caption.centered-text.text.prominent-text.contact-caption
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script(src='/js/vendor/bootstrap.js')
+    script(src='https://maps.googleapis.com/maps/api/js')
     // inject:js
     // endinject
