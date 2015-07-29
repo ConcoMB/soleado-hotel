@@ -344,8 +344,9 @@ html(lang='en')
                 input(id= 'email', type='text', name='email', placeholder='EMAIL', class='text contact-field')
             tr
               td.contact-cell(colspan='2')
-                textarea(name='message', placeholder='MESSAGE' class='text contact-field contact-area')
-          a(href='#' id='send' class=' text prominent-text custom-button send-button')
+                textarea(id= 'message', name='message', placeholder='MESSAGE' class='text contact-field contact-area')
+          #send.text.prominent-text.custom-button.send-button
             | send
+          #contact-caption.centered-text.text.prominent-text.contact-caption
     // inject:js
     // endinject
