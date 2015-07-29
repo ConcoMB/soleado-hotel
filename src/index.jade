@@ -139,7 +139,7 @@ html(lang='en')
             | Soleado has 15 spacious, recently renovated apartments where you can feel like at your
             | beach house. Apartments accomodate up to four guests, and are taken care of daily by
             | our housekeepers.
-          a(href='#' class=' text prominent-text custom-button apartments-button')
+          a(href='gallery' class=' text prominent-text custom-button apartments-button')
             | view gallery
     .location
       h1.text.title-text.centered-text
@@ -339,13 +339,14 @@ html(lang='en')
           table.contact-table
             tr
               td.contact-cell
-                input(type='text', name='name', placeholder='NAME', class='text contact-field')
+                input(id= 'name', type='text', name='name', placeholder='NAME', class='text contact-field')
               td.contact-cell
-                input(type='text', name='email', placeholder='EMAIL', class='text contact-field')
+                input(id= 'email', type='text', name='email', placeholder='EMAIL', class='text contact-field')
             tr
               td.contact-cell(colspan='2')
-                textarea(name='message', placeholder='MESSAGE' class='text contact-field contact-area')
-          a(href='#' class=' text prominent-text custom-button send-button')
+                textarea(id= 'message', name='message', placeholder='MESSAGE' class='text contact-field contact-area')
+          #send.text.prominent-text.custom-button.send-button
             | send
+          #contact-caption.centered-text.text.prominent-text.contact-caption
     // inject:js
     // endinject
