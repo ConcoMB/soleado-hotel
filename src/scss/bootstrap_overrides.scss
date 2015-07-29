@@ -1,10 +1,6 @@
 @import 'variables/colors';
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.navbar > .container-fluid .navbar-brand {
-  margin: 0 57px 0 33px;
-}
-
 .navbar-default {
   background-color: $softBlack;
 }
@@ -13,7 +9,21 @@
   min-height: 70px;
   border: none;
   border-radius: 0;
+  margin-bottom: 0;
 }
+
+.navbar-text {
+  text-transform: uppercase;
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin: 0 57px 0 33px;
+}
+
+.navbar > .container-fluid {
+  padding-right: 160px;
+}
+
 
 .navbar-default .navbar-nav > li > a {
   font-size: 16px;
@@ -25,4 +35,54 @@
 .navbar-default .navbar-nav > li > a:focus {
   color: $lighterGray;
   background-color: transparent;
+}
+
+a:hover,
+a:focus {
+  color: $lighterGray;
+  text-decoration: none;
+}
+
+.apartments-img > .carousel-inner > .item > img {
+  height: 600px;
+}
+
+.amenities-back-img > .carousel-inner > .item > img {
+  height: 920px;
+  width: 100%;
+}
+
+.carousel-indicators > .active {
+  background-color: $orange;
+  border: none;
+}
+
+.carousel-indicators > li {
+  background-color: $white;
+}
+
+.gallery-img > .carousel-inner {
+  height: 920px;
+}
+
+.gallery-img > .carousel-indicators {
+  bottom: 145px;
+}
+
+.gallery-img > .carousel-inner > .item > img {
+  height: 920px;
+  width: 100%;
+}
+
+.carousel-caption {
+  height: 107px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: $whiteSmoke;
+  text-shadow: none;
+  padding: 0 10%;
+  display: table;
 }
