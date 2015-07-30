@@ -10,7 +10,7 @@ html(lang='en')
     nav.navbar-center.navbar.navbar-default
       .container-fluid
         .navbar-header
-          a.navbar-brand(href='#')
+          a.navbar-brand(href='/')
             img(src='assets/navbar_logo.svg', alt='alt text', style='border:none;')
         div
           ul.nav.navbar-nav
@@ -108,7 +108,7 @@ html(lang='en')
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
             | Free wi-fi in the entire property
-    .apartments
+    #apartments.apartments
       .col-xs-12.col-sm-12.col-md-6.col-no-padding
         #apartments-carousel.apartments-img.carousel.slide(data-ride='carousel')
           ol.carousel-indicators
@@ -136,7 +136,7 @@ html(lang='en')
             | our housekeepers.
           a(href='gallery' class=' text prominent-text custom-button apartments-button')
             | view gallery
-    .location
+    #location.location
       h1.text.title-text.centered-text
         | where we are located
       .separator-text

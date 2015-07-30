@@ -13,8 +13,8 @@ $('#send').click(function() {
         'from_name': name,
         'to': [
           {
-            'email': window.soleado_email,
-            'name': window.soleado_name,
+            'email': window.soleadoEmail,
+            'name': window.soleadoName,
             'type': 'to'
           }
         ],
@@ -23,7 +23,7 @@ $('#send').click(function() {
       'html': message
     }
   }
- }).done(function(response) {
-    $("#contact-caption").text("YOUR INFO HAS BEEN SENT")
+ }).done(function() {
+    $('#contact-caption').text('YOUR INFO HAS BEEN SENT');
   });
 });
