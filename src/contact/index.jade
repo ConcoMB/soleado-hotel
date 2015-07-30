@@ -41,15 +41,15 @@ html(lang='en')
           .footer-desc
             img(src='/assets/footer_place.png')
             .text.contact-card-text
-              |2901 Belmar St, Fort Lauderdale, FL 33304
+              | 2901 Belmar St, Fort Lauderdale, FL 33304
           .footer-desc
             img(src='/assets/footer_mail.png')
             .text.contact-card-text
-              |info@soleadohotelfortlauderdale.com
+              | info@soleadohotelfortlauderdale.com
           .footer-desc
             img(src='/assets/footer_phone.png')
             .text.contact-card-text
-              |(001) 954 565 3187
+              | (001) 954 565 3187
           .footer-links
             a(href='#')
               img(src='/assets/footer_facebook.png' class='footer-link')
@@ -59,7 +59,7 @@ html(lang='en')
               img(src='/assets/footer_instagram.png' class='footer-link')
       .col-md-8
         .contact-form.contact-form-page
-          .text.title-text.centered-text
+          h1.text.title-text.centered-text
             | contact us
           .separator-text
           table.contact-table
@@ -71,7 +71,9 @@ html(lang='en')
             tr
               td.contact-cell(colspan='2')
                 textarea(id= 'message', name='message', placeholder='MESSAGE' class='text contact-field contact-area')
-          #send.text.prominent-text.custom-button.send-button
+          button(type='button' id='send' class=' text prominent-text custom-button send-button')
+            | send
+          //#send.text.prominent-text.custom-button.send-button
             | send
           #contact-caption.centered-text.text.prominent-text.contact-caption
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
