@@ -2,7 +2,6 @@ node_modules
 bower_components
 npm-debug.log
 build
-package.json
 .ruby-version
 npm-shrinkwrap.json
 mandrill_data.js
