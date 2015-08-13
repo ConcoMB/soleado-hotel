@@ -47,14 +47,14 @@ html(lang='en')
       .separator-text
       .text.body-text
         p.custom-paragraph
-          | Completely renovated and decorated with sunny accents, Soleado opens its doos as an
+          | Completely renovated and decorated with sunny accents, Soleado opens its doors as an
           | alternative to the impersonal an expensive hotel chains in the area where you can stay
           | with family or friends, and embrace what south Florida has to offer.
         p.custom-paragraph
           | Located only a block away from Fort Lauderdale's Beachfront Promenade and sandy beaches,
           | and minutes away from fabulous dining, shopping and nightlife, Soleado Apart Hotel offers
           | the convenience of having your own private apartment while enjoying family-like
-          | hospitality eager to make your vacation memorable
+          | hospitality eager to make your vacation memorable.
     #amenities.amenities
       #amenities-carousel.amenities-back-img.carousel.slide(data-ride='carousel')
         ol.carousel-indicators
@@ -64,53 +64,72 @@ html(lang='en')
         .carousel-inner
           .item.active
             img(src='assets/img_amenities_1.jpg')
-          .item
+            .amenities-caption
+              p.text.caption-text
+                | THE SWIMMING POOL
+              br
+              p.text.caption-text
+                | Our premises are designed to make your stay pleasant and carefree.
+              br
+              p.text.caption-text
+                | Our daylong sunny pool is the perfect spot to get that desired sunbath, 
+                | benefit from the weather with your family, or to sit by the lounge areas 
+                | under the shade of the umbrellas.
+          .item      
             img(src='assets/img_amenities_2.jpg')
+            .amenities-caption
+              p.text.caption-text
+                | THE BACKYARD LOUNGE
+              br
+              p.text.caption-text
+                | Our premises are designed to make your stay pleasant and carefree.
+              br
+              p.text.caption-text
+                | The backyard lounge offers an alternative option to unwind at a green 
+                | space while having breakfast or a drink to finish the day
           .item
             img(src='assets/img_amenities_3.jpg')
+            .amenities-caption
+              p.text.caption-text
+                | THE BBQ AREA
+              br
+              p.text.caption-text
+                | Our premises are designed to make your stay pleasant and carefree.
+              br
+              p.text.caption-text
+                | The barbeque area is ready for you to prepare your favorite meal over charcoal or gas. 
+                | You can reserve the space and get full service, including cleaning, dish and silverware service. 
+                | It accommodates parties up to 16 people.
+
       .amenities-panel
         h1.text.title-text.centered-text
           | amenities
         .separator-text
         .text.body-text
-          p.custom-paragraph
-            | What distinguishes our family-run business is the eagerness to make your stay as
-            | comfortable as possible while enjoying Florida's tropical weather, great shopping and
-            | beautiful Venetian coastline.
-          p.custom-paragraph
-            | Our premises are designed to make your stay pleasant and uncomplicated. Our pool gets
-            | sun at every time of the day for you to sunbathe or kids to play by, or to sit by the
-            | lounge areas under the shade of the umbrellas.
-          p.custom-paragraph
-            | The backyard lounge offers an alternative option to relax in a green space while having breakfast 
-            | or a drink to finish the day.
-          p.custom-paragraph
-            | The barbeque area is ready to prepare your favourite meals over charcoal or gas. You can
-            | reserve the space and get full service, including cleaning, dish and silverware service
-            | (upon request). It accomodates parties up to 16 people.
+          .custom-paragraph.carousel-paragraph  
     .amenities-footer
       dl
         .col-xs-12.col-sm-12.col-md-4
           img(src='assets/amenities_bbq.png' class='amenities-img')
           dt.amenities-gap.text.subtitle-text.centered-text
-            | gas & charcoal bbqs
+            | GAS & CHARCOAL BBQs
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Enjoy a meal in our fully equipped BBQ area
+            | Fully equipped BBQ area
         .col-xs-12.col-sm-12.col-md-4
           img(src='assets/amenities_parking.png' class='amenities-img')
           dt.amenities-gap.subtitle-text.centered-text
-            | parking
+            | PARKING
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Free self-parking for our guests around our premises
+            | Free self-parking around our premises
         .col-xs-12.col-sm-12.col-md-4
           img(src='assets/amenities_wifi.png' class='amenities-img')
           dt.amenities-gap.subtitle-text.centered-text
-            | wi-fi
+            | WI-FI
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Free wi-fi in the entire property
+            | Free Wi-Fi in the entire property
     #apartments.apartments
       .col-xs-12.col-sm-12.col-md-6.col-no-padding
         #apartments-carousel.apartments-img.carousel.slide(data-ride='carousel')
@@ -134,9 +153,11 @@ html(lang='en')
             | our apartments
           .inverted-separator-text
           p.text.body-text
-            | Soleado has 15 spacious, recently renovated apartments where you can feel like at your
-            | beach house. Apartments accomodate up to four guests, and are taken care of daily by
-            | our housekeepers.
+            | Soleado has 15 spacious, recently renovated apartments where you can feel at your
+            | own beach house. With housekeepers to provide you with the comfort you need, 
+            | our apartments accommodate up to four guests.
+
+
           a(href='gallery' class=' text prominent-text custom-button apartments-button')
             | view gallery
     #location.location
@@ -159,150 +180,151 @@ html(lang='en')
         | attractions close by
       .separator-text.attractions-gap
       dl
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_1.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Fort Laurerdale Beach
-              dd.text.subbody-text
-                | 0.1 mi | 0.16km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_10.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Riverwalk
-              dd.text.subbody-text
-                | 3.3 mi | 5.3km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_2.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Galleria Mall
-              dd.text.subbody-text
-                | 1.3 mi | 2km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_11.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Himarshee
-              dd.text.subbody-text
-                | 3.5 mi | 5.6km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_3.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Sawgrass Mills
-              dd.text.subbody-text
-                | 20.2 mi | 32.5km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_12.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Museum of Art
-              dd.text.subbody-text
-                | 3.2 mi | 5.1km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_4.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Old Fort Lauderdale Breakfast House
-              dd.text.subbody-text
-                | 4 mi | 6.4km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_13.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Museum of Discovery & Science
-              dd.text.subbody-text
-                | 3.9 mi | 6.2km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_5.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Bonnet House Museum & Gardens
-              dd.text.subbody-text
-                | 0.9 mi | 1.5km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_14.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Parker Playhouse
-              dd.text.subbody-text
-                | 2.8 mi | 4.6km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_6.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Birch State Park
-              dd.text.subbody-text
-                | 0.7 mi | 1.2km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_15.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | The Classic Gateway Theatre
-              dd.text.subbody-text
-                | 1.9 mi | 3.1km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_7.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Fort Lauderdarle Beach Park
-              dd.text.subbody-text
-                | 2 mi | 3km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_16.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Broward Convention Center
-              dd.text.subbody-text
-                | 3.4 mi | 5.4km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_8.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Down Town Las Olas
-              dd.text.subbody-text
-                | 3 mi | 4.8km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_17.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Key West
-              dd.text.subbody-text
-                | 192 mi | 308km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_9.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Port Everglades
-              dd.text.subbody-text
-                | 3.7 mi | 5.9km
-        .col-xs-12.col-sm-12.col-md-6
-          .attraction
-            img(src='assets/attractions_18.png' class='attraction-img')
-            .attraction-desc
-              dt.text.attraction-title-text
-                | Walt Disney World Parks
-              dd.text.subbody-text
-                | 207 mi | 333km
+        .row.attractions-container
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_1.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Fort Laurerdale Beach
+                dd.text.subbody-text
+                  | 0.1 mi | 0.16km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_10.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Riverwalk
+                dd.text.subbody-text
+                  | 3.3 mi | 5.3km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_2.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Galleria Mall
+                dd.text.subbody-text
+                  | 1.3 mi | 2km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_11.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Himarshee
+                dd.text.subbody-text
+                  | 3.5 mi | 5.6km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_3.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Sawgrass Mills
+                dd.text.subbody-text
+                  | 20.2 mi | 32.5km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_12.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Museum of Art
+                dd.text.subbody-text
+                  | 3.2 mi | 5.1km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_4.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Old Fort Lauderdale Breakfast House
+                dd.text.subbody-text
+                  | 4 mi | 6.4km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_13.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Museum of Discovery & Science
+                dd.text.subbody-text
+                  | 3.9 mi | 6.2km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_5.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Bonnet House Museum & Gardens
+                dd.text.subbody-text
+                  | 0.9 mi | 1.5km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_14.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Parker Playhouse
+                dd.text.subbody-text
+                  | 2.8 mi | 4.6km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_6.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Birch State Park
+                dd.text.subbody-text
+                  | 0.7 mi | 1.2km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_15.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | The Classic Gateway Theatre
+                dd.text.subbody-text
+                  | 1.9 mi | 3.1km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_7.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Fort Lauderdarle Beach Park
+                dd.text.subbody-text
+                  | 2 mi | 3km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_16.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Broward Convention Center
+                dd.text.subbody-text
+                  | 3.4 mi | 5.4km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_8.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Down Town Las Olas
+                dd.text.subbody-text
+                  | 3 mi | 4.8km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_17.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Key West
+                dd.text.subbody-text
+                  | 192 mi | 308km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_9.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Port Everglades
+                dd.text.subbody-text
+                  | 3.7 mi | 5.9km
+          .col-xs-12.col-sm-12.col-md-6
+            .attraction
+              img(src='assets/attractions_18.png' class='attraction-img')
+              .attraction-desc
+                dt.text.attraction-title-text
+                  | Walt Disney World Parks
+                dd.text.subbody-text
+                  | 207 mi | 333km
     .contact
       .col-md-4
         .contact-card
@@ -317,7 +339,7 @@ html(lang='en')
             .footer-desc
               img(src='assets/footer_mail.png')
               li.text.contact-card-text
-                | info@soleadohotelfortlauderdale.com
+                | soleado.mailer@gmail.com
             .footer-desc
               img(src='assets/footer_phone.png')
               li.text.contact-card-text

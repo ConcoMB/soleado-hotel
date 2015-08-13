@@ -71,7 +71,7 @@
   position: absolute;
   right: 54px;
   top: 45px;
-  padding: 20px 50px;
+  padding: 120px 77px;
 }
 
 .home-footer {
@@ -130,7 +130,7 @@
 
 .attraction-img {
   margin-top: -40px;
-  margin-left: 62px;
+  margin-left: 6%;
   margin-right: 10px;
 }
 
@@ -168,7 +168,6 @@
 
 .subtitle-text {
   font-size: 20px;
-  text-transform: uppercase;
 }
 
 .subbody-text {
@@ -319,6 +318,7 @@
 
 .attraction {
   height: 47px;
+  min-width: 448px;
   width: 100%;
   margin: 6px 0;
 }
@@ -383,6 +383,11 @@
 .footer-link {
   margin: 0 20px;
 }
+
+.attractions-container {
+  padding: 0 0 0 17%;
+}
+
 
 // Necessary to render GoogleMaps
 #map-canvas {
