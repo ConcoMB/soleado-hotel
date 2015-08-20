@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html(lang='es')
   head
     title Soleado Apart Hotel
     meta(charset="UTF-8")
@@ -10,8 +10,8 @@ html(lang='en')
     nav.navbar-center.navbar.navbar-default
       .container-fluid
         .navbar-header
-          a.navbar-brand(href='/')
-            img(src='assets/navbar_logo.svg', alt='alt text', style='border:none;')
+          a.navbar-brand(href='/es')
+            img(src='/assets/navbar_logo.svg', alt='alt text', style='border:none;')
         div
           ul.nav.navbar-nav
             li
@@ -32,29 +32,29 @@ html(lang='en')
     #home.home
       a(href='#' class= 'text prominent-text centered-text book-now-button')
         | book now
-      a(href='/es' class= 'text prominent-text centered-text language')
-        | es
-      img(src='assets/img_home.jpg', class='img-home')
-      img(src='assets/home_logo.png', class='inner-img-home')
+      a(href='/' class= 'text prominent-text centered-text language')
+        | en
+      img(src='/assets/img_home.jpg', class='img-home')
+      img(src='/assets/home_logo.png', class='inner-img-home')
       p.home-desc.text.prominent-text
-        | Escape to year-long sunshine and blissful ocean breezes. A relaxed environment where
-        | you can experience all Florida has to offer from the convenience of your own apartment
+        | Escape a un lugar con cielos radiantes durante todo el año a sólo pasos del mar. Un ambiente para relajarse 
+        | y disfrutar las principales atracciones de Florida desde la comodidad de su propio apartamento.
       a(href='#' class=' text prominent-text custom-button home-button')
         | book now
     .home-footer
       .text.title-text.centered-text
-        | the beach at your front yard
+        | LA PLAYA FRENTE A USTED
       .separator-text
       .text.body-text
         p.custom-paragraph
-          | Completely renovated and decorated with sunny accents, Soleado opens its doors as an
-          | alternative to the impersonal an expensive hotel chains in the area where you can stay
-          | with family or friends, and embrace what south Florida has to offer.
+          | Completamente renovado y decorado con acentos estivales, Soleado abre sus puertas 
+          | como una alternativa a las impersonales y poco económicas cadenas hoteleras de la zona, 
+          | en donde alojarse en familia o con amigos y disfrutar del sur de Florida.
         p.custom-paragraph
-          | Located only a block away from Fort Lauderdale's Beachfront Promenade and sandy beaches,
-          | and minutes away from fabulous dining, shopping and nightlife, Soleado Apart Hotel offers
-          | the convenience of having your own private apartment while enjoying family-like
-          | hospitality eager to make your vacation memorable.
+          | Ubicado a pocos metros del popular paseo marítimo de Fort Lauderdale y sus afamadas playas, 
+          | y a tan solo minutos de variadas opciones gastronómicas, de compras y animada vida nocturna, 
+          | Soleado Apart Hotel brinda la comodidad de tener su propio apartamento junto a nuestro compromiso a hacer de su estancia 
+          | una grata experiencia.
     #amenities.amenities
       #amenities-carousel.amenities-back-img.carousel.slide(data-ride='carousel')
         ol.carousel-indicators
@@ -63,44 +63,43 @@ html(lang='en')
           li(data-target='#amenities-carousel', data-slide-to='2')
         .carousel-inner
           .item.active
-            img(src='assets/img_amenities_1.jpg')
+            img(src='/assets/img_amenities_1.jpg')
             .amenities-caption
               p.text.caption-text
-                | THE SWIMMING POOL
+                | NUESTRA PISCINA
               br
               p.text.caption-text
-                | Our premises are designed to make your stay pleasant and carefree.
+                | Nuestras instalaciones están diseñadas para que su estadía en Soleado le permita relajarse.
               br
               p.text.caption-text
-                | Our daylong sunny pool is the perfect spot to get that desired sunbath, 
-                | benefit from the weather with your family, or to sit by the lounge areas 
-                | under the shade of the umbrellas.
+                | El sol cubre la zona de la piscina desde la mañana hasta el atardecer, 
+                | ofreciendo un amplio espacio para refrescarse, tomar el sol, o descansar bajo las sombrillas.
           .item      
-            img(src='assets/img_amenities_2.jpg')
+            img(src='/assets/img_amenities_2.jpg')
             .amenities-caption
               p.text.caption-text
                 | THE BACKYARD LOUNGE
               br
               p.text.caption-text
-                | Our premises are designed to make your stay pleasant and carefree.
+                | Nuestras instalaciones están diseñadas para que su estadía en Soleado le permita relajarse.
               br
               p.text.caption-text
-                | The backyard lounge offers an alternative option to unwind at a green 
-                | space while having breakfast or a drink to finish the day
+                | El lounge en el patio trasero es un espacio verde alternativo donde relajarse 
+                | durante el desayuno o disfrutar una bebida al finalizar el día. 
+                
           .item
-            img(src='assets/img_amenities_3.jpg')
+            img(src='/assets/img_amenities_3.jpg')
             .amenities-caption
               p.text.caption-text
                 | THE BBQ AREA
               br
               p.text.caption-text
-                | Our premises are designed to make your stay pleasant and carefree.
+                | Nuestras instalaciones están diseñadas para que su estadía en Soleado le permita relajarse.
               br
               p.text.caption-text
-                | The barbeque area is ready for you to prepare your favorite meal over charcoal or gas. 
-                | You can reserve the space and get full service, including cleaning, dish and silverware service. 
-                | It accommodates parties up to 16 people.
-
+                | La zona de BBQ está disponible para preparar comidas o cenas en parrillas de gas o carbón. 
+                | El espacio puede reservarse para obtener servicio de mesa y limpieza, 
+                | y tiene capacidad para hasta 16 personas.
       .amenities-panel
         h1.text.title-text.centered-text
           | amenities
@@ -110,26 +109,26 @@ html(lang='en')
     .amenities-footer
       dl
         .col-xs-12.col-sm-12.col-md-4
-          img(src='assets/amenities_bbq.png' class='amenities-img')
+          img(src='/assets/amenities_bbq.png' class='amenities-img')
           dt.amenities-gap.text.subtitle-text.centered-text
-            | GAS & CHARCOAL BBQs
+            | BBQ a Gas y Carbón
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Fully equipped BBQ area
+            | Zona de BBQ completamente equipada
         .col-xs-12.col-sm-12.col-md-4
-          img(src='assets/amenities_parking.png' class='amenities-img')
+          img(src='/assets/amenities_parking.png' class='amenities-img')
           dt.amenities-gap.subtitle-text.centered-text
             | PARKING
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Free self-parking around our premises
+            | Aparcamiento gratuito disponible alrededor del hotel
         .col-xs-12.col-sm-12.col-md-4
-          img(src='assets/amenities_wifi.png' class='amenities-img')
+          img(src='/assets/amenities_wifi.png' class='amenities-img')
           dt.amenities-gap.subtitle-text.centered-text
             | WI-FI
           .separator-text
           dd.text.subbody-text.amenities-desc-gap.centered-text
-            | Free Wi-Fi in the entire property
+            | Wi-Fi disponible en toda la propiedad
     #apartments.apartments
       .col-xs-12.col-sm-12.col-md-6.col-no-padding
         #apartments-carousel.apartments-img.carousel.slide(data-ride='carousel')
@@ -140,39 +139,39 @@ html(lang='en')
             li(data-target='#apartments-carousel', data-slide-to='3')
           .carousel-inner
             .item.active
-              img(src='assets/img_apartments_1.jpg' class='apartments-img')
+              img(src='/assets/img_apartments_1.jpg' class='apartments-img')
             .item
-              img(src='assets/img_apartments_2.jpg' class='apartments-img')
+              img(src='/assets/img_apartments_2.jpg' class='apartments-img')
             .item
-              img(src='assets/img_apartments_3.jpg' class='apartments-img')
+              img(src='/assets/img_apartments_3.jpg' class='apartments-img')
             .item
-              img(src='assets/img_apartments_4.jpg' class='apartments-img')
+              img(src='/assets/img_apartments_4.jpg' class='apartments-img')
       .col-xs-12.col-sm-12.col-md-6
         .apartments-sider
           h1.text.title-text.centered-text
-            | our apartments
+            | Apartamentos
           .inverted-separator-text
           p.text.body-text
-            | Soleado has 15 spacious, recently renovated apartments where you can feel at your
-            | own beach house. With housekeepers to provide you with the comfort you need, 
-            | our apartments accommodate up to four guests.
+            | Soleado cuenta con 15 apartamentos recientemente renovados en donde sentirse como en casa. 
+            | Cada apartamento tiene capacidad para hasta 4 personas y cuenta con servicio de habitaciones diario.
 
 
           a(href='gallery' class=' text prominent-text custom-button apartments-button')
-            | view gallery
+            | ver galeria
     #location.location
       h1.text.title-text.centered-text
-        | where we are located
+        | Dónde estamos
       .separator-text
       .text.body-text
         p.custom-paragraph
-          | Fort Laurerdale is a vibrant and growing coastal city that offers a wide array of
-          | activites for all ages. With a beautiful sandy beach almost at your front yard, we are
-          | only minutes away from fine dining, great shopping, kids entertainment and the liveliest
-          | nightlife on A1A and Las Olas Boulevard.
+          | Fort Lauderdale es una vibrante ciudad costera con una gran variedad de atracciones 
+          | para todas las edades durante todo el año. Soleado se encuentra ubicado a sólo pasos 
+          | de cautivantes playas de arena junto al paseo marítimo, y a pocos minutos de fantásticas 
+          | opciones gastronómicas y de compras, entretenimiento para niños, y la más animada vida 
+          | nocturna de A1A y Las Olas Boulevard.
         p.custom-paragraph
-          | Soleado is 20-25 minutes away (6,5 mi) from Fort Lauderdale Hollywood International
-          | Airtport, and 45-50 minutes drive from Miami International Airport (32.3 mi).
+          | Estamos a 20 minutos (6.5 millas) del Aeropuerto Internacional Hollywood de Fort Lauderdale (FLL) 
+          | y a 40-45 minutos del Aeropuerto Internacional de Miami (MIA).
     .location-map
       #map-canvas
     .attractions
@@ -183,15 +182,15 @@ html(lang='en')
         .row.attractions-container
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_1.png' class='attraction-img')
+              img(src='/assets/attractions_1.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
-                  | Fort Laurerdale Beach
+                  | Playa de Fort Lauderdale
                 dd.text.subbody-text
                   | 0.1 mi | 0.16km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_10.png' class='attraction-img')
+              img(src='/assets/attractions_10.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Riverwalk
@@ -199,7 +198,7 @@ html(lang='en')
                   | 3.3 mi | 5.3km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_2.png' class='attraction-img')
+              img(src='/assets/attractions_2.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Galleria Mall
@@ -207,7 +206,7 @@ html(lang='en')
                   | 1.3 mi | 2km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_11.png' class='attraction-img')
+              img(src='/assets/attractions_11.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Himarshee
@@ -215,7 +214,7 @@ html(lang='en')
                   | 3.5 mi | 5.6km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_3.png' class='attraction-img')
+              img(src='/assets/attractions_3.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Sawgrass Mills
@@ -223,7 +222,7 @@ html(lang='en')
                   | 20.2 mi | 32.5km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_12.png' class='attraction-img')
+              img(src='/assets/attractions_12.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Museum of Art
@@ -231,7 +230,7 @@ html(lang='en')
                   | 3.2 mi | 5.1km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_4.png' class='attraction-img')
+              img(src='/assets/attractions_4.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Old Fort Lauderdale Breakfast House
@@ -239,7 +238,7 @@ html(lang='en')
                   | 4 mi | 6.4km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_13.png' class='attraction-img')
+              img(src='/assets/attractions_13.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Museum of Discovery & Science
@@ -247,7 +246,7 @@ html(lang='en')
                   | 3.9 mi | 6.2km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_5.png' class='attraction-img')
+              img(src='/assets/attractions_5.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Bonnet House Museum & Gardens
@@ -255,7 +254,7 @@ html(lang='en')
                   | 0.9 mi | 1.5km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_14.png' class='attraction-img')
+              img(src='/assets/attractions_14.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Parker Playhouse
@@ -263,7 +262,7 @@ html(lang='en')
                   | 2.8 mi | 4.6km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_6.png' class='attraction-img')
+              img(src='/assets/attractions_6.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Birch State Park
@@ -271,7 +270,7 @@ html(lang='en')
                   | 0.7 mi | 1.2km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_15.png' class='attraction-img')
+              img(src='/assets/attractions_15.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | The Classic Gateway Theatre
@@ -279,7 +278,7 @@ html(lang='en')
                   | 1.9 mi | 3.1km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_7.png' class='attraction-img')
+              img(src='/assets/attractions_7.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Fort Lauderdarle Beach Park
@@ -287,7 +286,7 @@ html(lang='en')
                   | 2 mi | 3km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_16.png' class='attraction-img')
+              img(src='/assets/attractions_16.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Broward Convention Center
@@ -295,7 +294,7 @@ html(lang='en')
                   | 3.4 mi | 5.4km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_8.png' class='attraction-img')
+              img(src='/assets/attractions_8.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Down Town Las Olas
@@ -303,7 +302,7 @@ html(lang='en')
                   | 3 mi | 4.8km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_17.png' class='attraction-img')
+              img(src='/assets/attractions_17.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Key West
@@ -311,7 +310,7 @@ html(lang='en')
                   | 192 mi | 308km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_9.png' class='attraction-img')
+              img(src='/assets/attractions_9.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Port Everglades
@@ -319,7 +318,7 @@ html(lang='en')
                   | 3.7 mi | 5.9km
           .col-xs-12.col-sm-12.col-md-6
             .attraction
-              img(src='assets/attractions_18.png' class='attraction-img')
+              img(src='/assets/attractions_18.png' class='attraction-img')
               .attraction-desc
                 dt.text.attraction-title-text
                   | Walt Disney World Parks
@@ -329,47 +328,50 @@ html(lang='en')
       .col-md-4
         .contact-card
           .img-footer-logo
-            img(src='assets/footer_logo.png')
+            img(src='/assets/footer_logo.png')
           .separator-text
           ul.contact-list
             .footer-desc
-              img(src='assets/footer_place.png')
+              img(src='/assets/footer_place.png')
               li.text.contact-card-text
                 | 2901 Belmar St, Fort Lauderdale, FL 33304
             .footer-desc
-              img(src='assets/footer_mail.png')
+              img(src='/assets/footer_mail.png')
               li.text.contact-card-text
                 | soleado.mailer@gmail.com
             .footer-desc
-              img(src='assets/footer_phone.png')
+              img(src='/assets/footer_phone.png')
               li.text.contact-card-text
                 | (001) 954 565 3187
           .footer-links
             a(href='#')
-              img(src='assets/footer_facebook.png' class='footer-link')
+              img(src='/assets/footer_facebook.png' class='footer-link')
             a(href='#')
-              img(src='assets/footer_twitter.png' class='footer-link')
+              img(src='/assets/footer_twitter.png' class='footer-link')
             a(href='#')
-              img(src='assets/footer_instagram.png' class='footer-link')
+              img(src='/assets/footer_instagram.png' class='footer-link')
       .col-md-8
         .contact-form
           h1.text.title-text.centered-text
-            | contact us
+            | Contacto
           .separator-text
           table.contact-table
             tr
               td.contact-cell
-                input(id= 'name', type='text', name='name', placeholder='NAME', class='text contact-field')
+                input(id= 'name', type='text', name='name', placeholder='NOMBRE', class='text contact-field')
               td.contact-cell
                 input(id= 'email', type='text', name='email', placeholder='EMAIL', class='text contact-field')
             tr
               td.contact-cell(colspan='2')
-                textarea(id= 'message', name='message', placeholder='MESSAGE' class='text contact-field contact-area')
+                textarea(id= 'message', name='message', placeholder='MENSAJE' class='text contact-field contact-area')
           button(type='button' id='send' class='text prominent-text custom-button send-button')
-            | send
+            | enviar
           #contact-caption.centered-text.text.prominent-text.contact-caption
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='/js/vendor/bootstrap.js')
     script(src='https://maps.googleapis.com/maps/api/js')
+    script(src='/js/index.js')
+    script(src='/js/contact.js')
+    script(src='/js/carousel.js')
     // inject:js
     // endinject
