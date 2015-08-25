@@ -1,4 +1,4 @@
-var iconBase = 'assets/location_placeholder.png';
+var iconBase = '../assets/location_placeholder.png';
 
 function initialize() {
   'use strict';

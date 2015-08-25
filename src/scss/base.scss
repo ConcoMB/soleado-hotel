@@ -65,13 +65,14 @@
 }
 
 .amenities-panel {
-  width: 515px;
-  height: 775px;
+  width: 500px;
+  height: 600px;
   background-color: rgba(244, 245, 245, 0.9);
   position: absolute;
   right: 54px;
-  top: 45px;
-  padding: 120px 77px;
+  top: 135px;
+  padding: 40px;
+  text-align: center;
 }
 
 .home-footer {
@@ -190,6 +191,11 @@
   font-size: 14px;
   color: $grayText;
   display: inline-block;
+}
+
+.amenities-caption-text {
+  color: $grayText;
+  font-size: 20px;
 }
 
 // Separator bars
