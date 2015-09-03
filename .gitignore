@@ -7,3 +7,4 @@ npm-shrinkwrap.json
 mandrill_data.js
 sendgrid_data.js
 gulp/aws.js
+gulp/configKeys.js
