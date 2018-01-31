@@ -11,7 +11,7 @@ $('#send').click(function() {
       api_user:window.user,
       api_key: window.key,
       to: window.soleadoEmail,
-      toname: window.soleadoName,
+      toname: 'soleado.aparthotel@gmail.com',
       subject: window.subject,
       text: message,
       from: email,
